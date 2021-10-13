@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal
+    .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Condiciones comerciales
@@ -15,7 +15,7 @@
               p.mb-0 Las condiciones comerciales, también conocidas como Condiciones Generales de Venta (CGV), son los procedimientos y normas que establece la empresa como parte de la formalización de la transacción comercial y, por tanto, deben ser informadas por el vendedor y aceptadas de forma expresa por el cliente. (Imbra, 2021)
         .row.align-items-center.mb-5
           .col-lg-6.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/img2.svg', style="width: 550px").m-auto
           .col-lg-5
             p.mb-4 #[b.txt-deco1 Establecer las condiciones comerciales es sumamente importante dentro de un proceso comercial estructurado, porque:]
@@ -52,7 +52,7 @@
                   p Es una medida subjetiva individual que asigna el cliente al producto.
                   p.mb-0 El inversionista Buffett (2021) indica que “el precio es lo que se paga, el valor es lo que se obtiene”, con esta famosa frase, se pone explícita la relación, pero, a la vez, diferencia entre un concepto y otro.
           .col-lg-6
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/img3.svg', style="width: 450px").m-auto
     #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel').my-5
       .carousel-indicators
@@ -101,11 +101,11 @@
           .col-10
             p.mb-0 El mercadeo tiene un #[b reto importante] y es lograr que la #[b percepción de valor y precio] tengan valores cercanos, es decir, que las personas/empresas valoren el producto y estén dispuestos a pagar por él lo que la empresa ha asignado. Dicho de otra forma, el cliente adquirirá un producto cuando considere que el balance entre el precio que va a pagar y el valor percibido es “justo”.
       .col-lg-6
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/img7.svg', style="width: 550px").m-auto
     .row.align-items-center.mb-5
       .col-lg-6.order-2.order-lg-1
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/img8.svg', style="width: 550px").m-auto
       .col-lg-6.order-1.order-lg-2
         p Aún cuando el agente de contact center y BPO no es responsable de asignar los precios en una compañía, si verá cómo, en el día a día de su actividad comercial, el precio es una de las objeciones de ventas más utilizadas; por ello, se hace relevante entender otras consideraciones respecto a este tema. 
@@ -116,7 +116,7 @@
     .row.bg-color5.px-5
       .col-12
         p.my-5 A continuación, se muestran los tres métodos más usados por las empresas para determinar el precio de un producto.
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade-left")
           .col-lg-4.bg-color6
             figure.mb-5
               img(src='@/assets/curso/img9.svg', style="width: 90px").m-auto
@@ -175,23 +175,23 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/img3.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p Busca atraer a grupos objetivo. Se presentan cuando: el producto es altamente diferenciado o innovador y el cliente está dispuesto a pagar por esa diferencia.
-              p.mb-0 Usualmente, se da cuando son productos de lujo, exclusivos o de tecnología. El objetivo es aumentar la rentabilidad y crear diferenciación en el mercado.
+              p.text-white Busca atraer a grupos objetivo. Se presentan cuando: el producto es altamente diferenciado o innovador y el cliente está dispuesto a pagar por esa diferencia.
+              p.mb-0.text-white Usualmente, se da cuando son productos de lujo, exclusivos o de tecnología. El objetivo es aumentar la rentabilidad y crear diferenciación en el mercado.
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/img4.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p Se da cuando el producto está haciendo presencia en un mercado altamente competido, aunque solo es posible aplicar si se tiene una muy buena estructura de costos.
-              p.mb-0 El objetivo es ganar participación en el mercado, aunque se debe ser cuidadoso, para que el cliente no asocie bajo precio con mala calidad.
+              p.text-white Se da cuando el producto está haciendo presencia en un mercado altamente competido, aunque solo es posible aplicar si se tiene una muy buena estructura de costos.
+              p.mb-0.text-white El objetivo es ganar participación en el mercado, aunque se debe ser cuidadoso, para que el cliente no asocie bajo precio con mala calidad.
               br
       .col-sm-6.col-xl-4.mb-4.mb-sm-0
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/img5.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p Cuando el objetivo es vender, sin generar mayor diferenciación.
-              p.mb-0 En este caso, la empresa desea ser una opción considerada dentro del análisis comparativo del consumidor.
+              p.text-white Cuando el objetivo es vender, sin generar mayor diferenciación.
+              p.mb-0.text-white En este caso, la empresa desea ser una opción considerada dentro del análisis comparativo del consumidor.
               br
               br
               br
@@ -209,7 +209,7 @@
           .bloque-texto-d__autor 
             .h6.mb-0 Kotler y Armstrong, 2017
       .col-lg-5
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/img6.png', style="width: 450px").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10.bg-color10
@@ -218,7 +218,7 @@
         p #[b Descuento (D)] = Valor del bien * % de descuento
         p.mb-0 #[b Valor a pagar (Vp)] = Valor del bien - Descuento
     .row.justify-content-center
-      .col-lg-8.bg-color12.mb-5
+      .col-lg-8.bg-color12.mb-5(data-aos="fade-right")
         .row.align-items-center
           .col-lg-6.bg-color11.p-4
             figure
@@ -280,7 +280,7 @@
           p Están sustentados en la premisa de maximizar la rentabilidad, ya que al utilizar el sistema financiero, a través de tarjetas, las empresas pagan un porcentaje de comisión al sistema financiero, lo que representa un menor valor neto.
     .row.align-items-center.justify-content-center
       .col-lg-4.mb-4.mb-lg-0
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/img7.png', style="width: 450px").m-auto
       .col-lg-6
         p.mb-4 Para mayor entendimiento, se muestra un ejemplo de un descuento financiero:
@@ -340,14 +340,14 @@
                 .col-12
                   p.mb-0 Son los porcentajes que aplican las empresas a sus productos para salir de sus inventarios.
           .col-lg-6
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/img22.svg', style="width: 450px").m-auto
         .row
           .col-12
             p.mb-5 Algunos ejemplos para aclarar algunos conceptos, son:
         .row.align-items-center
           .col-lg-6
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/img23.svg', style="width: 550px").m-auto
           .col-lg-6
             .row.align-items-start

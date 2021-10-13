@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
+    .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Cierre de ventas
@@ -29,13 +29,13 @@
                 i.fas.fa-angle-right
                 | Se realizara el manejo de objeciones respectivo.
           .col-lg-6
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/img24.svg', style="width: 450px").m-auto
     .row.bg-color16.px-5
       .col-12
         .row.align-items-center.py-5
           .col-lg-6.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/img25.svg', style="width: 550px").m-auto
           .col-lg-6
             p.mb-5 Como se mencionó previamente, el cierre de la venta representa el fin del proceso comercial, la expectativa es que, si el proceso es exitoso, el cliente aceptará la compra del producto.
@@ -55,7 +55,7 @@
           .col-10
             p.text-white.mb-0 Ese concepto de que la ganancia se da en doble vía es una premisa fundamental del enfoque moderno. A continuación, se evidencia el porqué de esta premisa:
     .row.bg-color18.px-5.mb-5
-      .col-12.p-5
+      .col-12.p-5(data-aos="fade-right")
         .row.mb-5
           .col-lg-4.bg-color17
             figure
@@ -194,11 +194,11 @@
                 .col-12
                   p.mb-0 Aplique la empatía bidireccional, es decir, debe tratar de ponerse en el rol del cliente, así como tener siempre en el radar que se está representando a la empresa.
           .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/img31.svg', style="position: relative; width: 550px;").m-auto
         .row.align-items-start
           .col-lg-6.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/img14.png', style="position: relative; width: 450px;").m-auto
           .col-lg-6
             p.mb-4 Adicional a lo anterior, se dan algunos tips relevantes respecto a la comunicación en el proceso de cierre de ventas:

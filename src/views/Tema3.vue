@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
+    .titulo-principal(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Transacciones comerciales
@@ -25,7 +25,7 @@
     .row.bg-color22.px-5.mb-5
       .col-12.p-5
         p.text-center.mb-5 #[b Para que las transacciones se realicen, se requiere:]
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/img36.svg', style="position: relative; width: 1050px;").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10.bg-color12.mb-5
@@ -65,7 +65,7 @@
       .col-10.col-lg-9.mb-5
         .row.align-items-center
           .col-lg-6.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/img37.svg', style="position: relative; width: 450px;").m-auto
           .col-lg-6
             p #[b Para dar una mejor estructura y alcance, las transacciones comerciales tienen dos clases o modelos:]
@@ -151,7 +151,7 @@
         p #[span.txt-deco1 Documentos negociables:] hacen relación a aquellos que son susceptibles de negociación a través de traspasos, descuentos o endosos en una entidad financiera antes que se venzan.
         p.mb-0 #[span.txt-deco1 Documentos no negociables:] son aquellos que sirven de soporte para la contabilidad y pueden considerarse de validez jurídica, por tanto, son obligatorios para todas aquellas empresas que operen legalmente.
       .col-lg-5
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/img19.png', style="position: relative; width: 400px;").m-auto
     p #[b Esta clasificación guarda estrecha relación con la perspectiva contable.]
     p.mb-5 A continuación, se listan los principales documentos clasificados como documentos negociables, recordando que suelen usarse de forma frecuente por las empresas en Colombia, dado que facilitan las operaciones comerciales, son de uso diario y pueden ser utilizados como respaldo, debido a que pueden convertirse en medios de pago. Los más usados en el medio son:
@@ -238,7 +238,7 @@
       .col-12
         .row.align-items-center.mb-5
           .col-lg-6.mb-4.mb-lg-0
-            figure
+            figure(data-aos="fade-right")
               img(src='@/assets/curso/img43.svg', style="width: 450px").m-auto
           .col-lg-6
             p #[span.txt-deco1 Los contratos son documentos de formalización que aplican cuando se adquiere un bien o servicio que tenga asociados pagos recurrentes o cuando se van a generar relaciones comerciales entre dos agentes.]
@@ -291,7 +291,7 @@
                   p El leasing es una forma muy utilizada hoy por las empresas y con tendencia creciente en las personas; por tanto, los contratos de leasing cada vez se ven más en el medio. En este tipo de acuerdo, se presenta un documento donde se establece un valor de arriendo con una opción de compra. En este tipo de contrato, se deben relacionar: los datos del arrendatario (quien paga el monto acordado), el arrendador (quien cede los derechos de uso del bien), relacionar las características del bien y especificar montos y condiciones de pago.
                   p.mb-0 El leasing es una forma muy usada por las empresas con los equipos de cómputo de sus colaboradores, suscriben un contrato con una empresa que se los suministre y, en la medida de que las exigencias del negocio lo soliciten, van definiendo cuáles son susceptibles de compra y cuáles seguirán funcionando como un arriendo.
           .col-lg-6
-            figure
+            figure(data-aos="fade-left")
               img(src='@/assets/curso/img44.svg', style="width: 450px").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -303,7 +303,7 @@
             p.text-white.mb-0 Antes de entrar a revisar los aspectos a considerar en el diligenciamiento de un contrato, es importante mencionar que, con el auge de las transacciones digitales, en muchos casos ya no se requiere la impresión de los documentos, ya que este proceso puede realizarse utilizando diferentes canales tecnológicos. Sin embargo, cabe referenciar algunas consideraciones respecto a la firma de contratos impresos.
     .row.align-items-center.mb-5
       .col-lg-6
-        figure
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/img45.svg', style="width: 550px").m-auto
       .col-lg-6
         p #[b Documentos impresos]: se sugiere sean generados a computador (para mayor claridad) y entregados para firma en dos tenores (es decir, un ejemplar para cada una de las partes). Asimismo, que sean diligenciados en letra negra, referenciando muy bien la fecha en que se celebran y sin dejar espacios en blanco. Es importante realizar la validación sobre si quien firma realmente tiene facultades (poder) para hacerlo. En el caso de personas naturales, quien lo firma es quien está aceptando las condiciones del servicio y, en términos generales, deben ser personas mayores de 18 años. En el caso de personas jurídicas (empresas), debe ser el representante legal (Gerente) o un apoderado (una persona a la cual legalmente se le ha concedido esa autorización).
