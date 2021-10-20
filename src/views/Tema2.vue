@@ -173,6 +173,7 @@
         br
         br
         br
+    p.mb-5 A continuación, se darán algunas consideraciones sobre el cierre de ventas telefónicas, que se convierten en complemento de los tipos de cierres de ventas vistos previamente, y que, por supuesto, tienen aplicabilidad en este tipo de contexto:
     .row.bg-color20.px-5
       .col-12
         .row.align-items-start.mb-5

@@ -54,6 +54,9 @@
           .col-lg-6
             figure(data-aos="fade-left")
               img(src='@/assets/curso/img3.svg', style="width: 450px").m-auto
+        .row
+          .col-12
+            p.mb-0 Con el fin de identificar de forma puntual cómo se pueden aplicar estos tres conceptos, a continuación se plantean los siguientes ejemplos.
     #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel').my-5
       .carousel-indicators
         button.active(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')

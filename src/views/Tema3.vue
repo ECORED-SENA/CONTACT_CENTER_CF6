@@ -148,8 +148,8 @@
       .col-lg-5.mb-4.mb-lg-0
         p Son todos aquellos soportes que quedan para la empresa formalizar las transacciones comerciales. Como se mencionó previamente, siempre las operaciones comerciales están respaldadas en formatos, los cuales sirven de soporte contable, comercial y legal; además tienen como característica, desde el punto de vista de mercadeo, que los datos que contienen son fuente de información fundamental para conocer cómo se comporta un cliente.
         p Tradicionalmente, los soportes se han clasificado en:
-        p #[span.txt-deco1 Documentos negociables:] hacen relación a aquellos que son susceptibles de negociación a través de traspasos, descuentos o endosos en una entidad financiera antes que se venzan.
-        p.mb-0 #[span.txt-deco1 Documentos no negociables:] son aquellos que sirven de soporte para la contabilidad y pueden considerarse de validez jurídica, por tanto, son obligatorios para todas aquellas empresas que operen legalmente.
+        p #[span.txt-deco1 #[b Documentos negociables:]] hacen relación a aquellos que son susceptibles de negociación a través de traspasos, descuentos o endosos en una entidad financiera antes que se venzan.
+        p.mb-0 #[span.txt-deco1 #[b Documentos no negociables:]] son aquellos que sirven de soporte para la contabilidad y pueden considerarse de validez jurídica, por tanto, son obligatorios para todas aquellas empresas que operen legalmente.
       .col-lg-5
         figure(data-aos="fade-left")
           img(src='@/assets/curso/img19.png', style="position: relative; width: 400px;").m-auto
@@ -308,29 +308,37 @@
       .col-lg-6
         p #[b Documentos impresos]: se sugiere sean generados a computador (para mayor claridad) y entregados para firma en dos tenores (es decir, un ejemplar para cada una de las partes). Asimismo, que sean diligenciados en letra negra, referenciando muy bien la fecha en que se celebran y sin dejar espacios en blanco. Es importante realizar la validación sobre si quien firma realmente tiene facultades (poder) para hacerlo. En el caso de personas naturales, quien lo firma es quien está aceptando las condiciones del servicio y, en términos generales, deben ser personas mayores de 18 años. En el caso de personas jurídicas (empresas), debe ser el representante legal (Gerente) o un apoderado (una persona a la cual legalmente se le ha concedido esa autorización).
         p.mb-0 Para #[b documentos no impresos], se debe tener en cuenta que, en Colombia, existen tres tipos de firmas y que, dependiendo del tipo de soporte o de la empresa con la que se realice la transacción, se solicitará una u otra.
+    .row.justify-content-center.mb-5
+      .col-9.col-lg-4.mb-5.mb-lg-0
+        .tarjeta--boton.color-primario.p-3.bg-color27
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/img51.svg', style="width: 175px; position: relative; bottom: 56px;").m-auto
+          p(style="bottom:30px;") #[b Firma digital]: utiliza un procedimiento matemático de criptografía, que implica que, para enviarse el documento, se requiera una clave que solo tiene quién generó el mensaje. En Colombia, la firma digital está reglamentada mediante el Decreto 333 de 2014, donde se define que una entidad de certificación debe respaldar la validez de la firma, por tanto, es una firma más segura y confiable.
+      .col-9.col-lg-4.mb-5.mb-lg-0
+        .tarjeta--boton.color-primario.p-3.bg-color27
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/img52.svg', style="width: 175px; position: relative; bottom: 56px;").m-auto
+          p(style="bottom:30px;") #[b Firma electrónica]: es un término que hace relación a la posibilidad de aceptar documentos sin necesidad de que estén impresos, adicionalmente a que no es necesario que estén asociados a una rúbrica, puede ser un código, una contraseña, un dato biométrico, una clave pictográfica.
+      .col-9.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.color-primario.p-3.bg-color27
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/img53.svg', style="width: 175px; position: relative; bottom: 56px;").m-auto
+          p(style="bottom:30px;") #[b Firma escaneada]: es la más simple de todas, es aquella que la mayoría de personas naturales tienen disponible cuando requieren incorporar una firma para enviar asociada a un documento. 
+          p.mb-0(style="bottom:30px;") En la mayoría de los casos, es una firma generada a partir de un screenshot (pantallazo) de la firma de la persona. Es importante considerar que esta firma tiene como aspecto positivo su facilidad para incorporar, sin embargo, su desventaja es que no tiene asociación con la seguridad, porque puede ser copiada y usada sin ningún tipo de control.
     .row.justify-content-center
-      .col-7.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-3.bg-color27
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/img46.svg', style="width: 90px").m-auto
-          p #[b Firma digital]: utiliza un procedimiento matemático de criptografía, que implica que, para enviarse el documento, se requiera una clave que solo tiene quién generó el mensaje. En Colombia, la firma digital está reglamentada mediante el Decreto 333 de 2014, donde se define que una entidad de certificación debe respaldar la validez de la firma, por tanto, es una firma más segura y confiable.
-      .col-7.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-3.bg-color27
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/img46.svg', style="width: 90px").m-auto
-          p #[b Firma electrónica]: es un término que hace relación a la posibilidad de aceptar documentos sin necesidad de que estén impresos, adicionalmente a que no es necesario que estén asociados a una rúbrica, puede ser un código, una contraseña, un dato biométrico, una clave pictográfica.
-      .col-7.col-lg-4.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-3.bg-color27
-          .row.justify-content-center.mb-3
-            .col-7
-              figure
-                img(src='@/assets/curso/img46.svg', style="width: 90px").m-auto
-          p #[b Firma escaneada]: es la más simple de todas, es aquella que la mayoría de personas naturales tienen disponible cuando requieren incorporar una firma para enviar asociada a un documento. 
-          p.mb-0 En la mayoría de los casos, es una firma generada a partir de un screenshot (pantallazo) de la firma de la persona. Es importante considerar que esta firma tiene como aspecto positivo su facilidad para incorporar, sin embargo, su desventaja es que no tiene asociación con la seguridad, porque puede ser copiada y usada sin ningún tipo de control.
+      .col-lg-10
+        .row.align-items-center.bg-color7.p-4(data-aos="fade-left")
+          .col-2
+            figure
+              img(src='@/assets/curso/img11.svg', style="position: relative; width: 85px;").m-auto
+          .col-10
+            p.text-white.mb-0 En el caso de las ventas telefónicas, dependiendo del tipo de producto que se oferte, se podrá dar: una aceptación telefónica que queda grabada y constituye la aceptación del cliente respecto al bien/ servicio; en este caso, la empresa es responsable de enviarle al cliente la documentación que soporta la transacción, aunque no requiere que sea firmada, pues se convierte en informativa. En otros casos, cuando el servicio implica temas financieros, la aceptación también se da por este canal, sin embargo, se envía a una persona, a un lugar acordado con el cliente, para que firme los soportes respectivos.
     separador.mb-5
     #t_3_3
     .titulo-segundo
