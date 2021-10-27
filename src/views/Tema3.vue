@@ -175,7 +175,7 @@
         .row.justify-content-center
           .col-10.col-lg-5.mb-4.mb-md-0
             p #[b Las letras de cambio]
-            p Las letras de cambio son un soporte de cobro que tiene por fin referenciar un valor a pagar en una fecha determinada. La diferencia con el pagaré es que acá intervienen tres agentes, en vez de dos, como en el caso anterior. En una letra de cambio deben existir: el librador (la empresa que emite la deuda), un librado (quién tiene la obligación de pagar) y el tomador (quien se beneficiará del pago). #[span.txt-deco3 Como característica de este tipo de documento, se tiene que usualmente no implica el pago de tasas de interés, sino el pago del valor adeudado, lo] que quizá haya llevado a que hoy en día no sea tan usado en comparación con los pagarés.
+            p Las letras de cambio son un soporte de cobro que tiene por fin referenciar un valor a pagar en una fecha determinada. La diferencia con el pagaré es que acá intervienen tres agentes, en vez de dos, como en el caso anterior. En una letra de cambio deben existir: el librador (la empresa que emite la deuda), un librado (quién tiene la obligación de pagar) y el tomador (quien se beneficiará del pago). #[span.txt-deco3 Como característica de este tipo de documento, se tiene que usualmente no implica el pago de tasas de interés, sino el pago del valor adeudado,] lo que quizá haya llevado a que hoy en día no sea tan usado en comparación con los pagarés.
           .col-10.col-lg-5
             figure
               img(src='@/assets/curso/img22.png', style="width: 450px").m-auto
@@ -187,7 +187,7 @@
         .row.justify-content-center
           .col-10.col-lg-5.mb-4.mb-md-0
             p #[b Las facturas]
-            p La factura, podría decirse, es el documento más usado dentro de las transacciones comerciales; allí se detalla, de manera formal, la relación de los productos adquiridos por el cliente, relacionando: datos de quien vende, información básica de quien compra, la relación de la cantidad de bienes/ servicios adquiridos y el precio pagado por ellos.
+            p La factura, podría decirse, es el documento más usado dentro de las transacciones comerciales; allí se detalla, de manera formal, la relación de los productos adquiridos por el cliente, relacionando: datos de quien vende, información básica de quien compra, la relación de la cantidad de bienes/servicios adquiridos y el precio pagado por ellos.
             p La utilidad de la factura es demostrar que en efecto la transacción ha sido realizada y también es soporte tributario (es decir, para constatar qué tipo y cuantía de impuestos se han pagado). En Colombia, para personas jurídicas (empresas), la existencia de la factura es lo que demuestra que efectivamente la operación se ha realizado y, por ello, siempre genera un efecto contable.
           .col-10.col-lg-5
             figure
@@ -289,7 +289,7 @@
               .row(numero="6" titulo="Leasing")
                 .col-12
                   p El leasing es una forma muy utilizada hoy por las empresas y con tendencia creciente en las personas; por tanto, los contratos de leasing cada vez se ven más en el medio. En este tipo de acuerdo, se presenta un documento donde se establece un valor de arriendo con una opción de compra. En este tipo de contrato, se deben relacionar: los datos del arrendatario (quien paga el monto acordado), el arrendador (quien cede los derechos de uso del bien), relacionar las características del bien y especificar montos y condiciones de pago.
-                  p.mb-0 El leasing es una forma muy usada por las empresas con los equipos de cómputo de sus colaboradores, suscriben un contrato con una empresa que se los suministre y, en la medida de que las exigencias del negocio lo soliciten, van definiendo cuáles son susceptibles de compra y cuáles seguirán funcionando como un arriendo.
+                  p.mb-0 El leasing es una forma muy usada por las empresas con los equipos de cómputo de sus colaboradores, suscriben un contrato con una empresa que se los suministre y, en la medida en que las exigencias del negocio lo soliciten, van definiendo cuáles son susceptibles de compra y cuáles seguirán funcionando como un arriendo.
           .col-lg-6
             figure(data-aos="fade-left")
               img(src='@/assets/curso/img44.svg', style="width: 450px").m-auto

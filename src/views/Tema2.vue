@@ -24,7 +24,7 @@
                 | Se hiciera la presentación de la propuesta comercial por parte del asesor.
               li 
                 i.fas.fa-angle-right
-                | Se aplicarán las técnicas de ventas y los modelos de negociación.
+                | Se aplicaran las técnicas de ventas y los modelos de negociación.
               li 
                 i.fas.fa-angle-right
                 | Se realizara el manejo de objeciones respectivo.
@@ -223,6 +223,7 @@
                   img(src='@/assets/curso/img34.svg', style="width: 50px").m-auto
               .col-10
                 p.mb-0 Mostrar mucha seguridad y expresar las respuestas con claridad, evitar frases como: no creo, no estoy seguro, lo dudo, espéreme pregunto, tal vez.
+                hr
             .row.align-items-start
               .col-2
                 figure

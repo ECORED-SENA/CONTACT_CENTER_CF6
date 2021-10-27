@@ -41,7 +41,7 @@
             LineaTiempoD.color-primario
               .row(numero="1" titulo="Precio")
                 .col-12
-                  p Desde la perspectiva de mercadeo, el precio es la única variable dentro de la mezcla de mercadeo (marketing mix) que genera ingresos (entradas de dinero) para la empresa. Asimismo, es flexible y dinámico, ya que puede ser modificado en el corto plazo. A su vez, facilita la comparación de alternativas para el cliente, por tanto, tiene impacto psicológico sobre el cliente, ya que este comenzará a realizar asociaciones entre la marca y el precio. 
+                  p Desde la perspectiva de mercadeo, el precio es la única variable dentro de la mezcla de mercadeo (#[i marketing mix]) que genera ingresos (entradas de dinero) para la empresa. Asimismo, es flexible y dinámico, ya que puede ser modificado en el corto plazo. A su vez, facilita la comparación de alternativas para el cliente, por tanto, tiene impacto psicológico sobre el cliente, ya que este comenzará a realizar asociaciones entre la marca y el precio. 
                   p Desde la perspectiva de las ventas, el precio es aquello que paga el cliente a cambio del producto, es decir, el valor de intercambio formal.
                   p.mb-0 En el sistema financiero, el precio es la tasa de interés o tipo de interés.
               .row(numero="2" titulo="Costo")
@@ -229,7 +229,7 @@
           .col-lg-6.p-4
             p.text-white Para un mejor entendimiento, se presenta el siguiente ejemplo: 
             p.text-white El precio base (de lista) de un servicio de internet banda ancha es de $50.000 y se establece un descuento del 10 %. ¿Cuál será el precio que el agente de contact center le debe indicar al cliente?
-            p.text-white D = $50.000 * 10%
+            p.text-white D = $50.000 * 10 %
             p.text-white D = $5.000
             p.text-white Vp = $50.000 - $5.000
             p.text-white Vp = $45.000
